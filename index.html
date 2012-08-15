@@ -1,0 +1,598 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>application.css.sass</title>
+	<style type="text/css">
+/* Stylesheet generated from TextMate theme
+ *
+ * Dawn
+ * Dawn
+ *
+ */
+
+/* Mostly to improve view within the TextMate HTML viewer */
+body {
+	margin: 0;
+	padding: 10px;
+}
+
+pre.textmate-source {
+	margin: 0;
+	padding: 0 0 0 2px;
+	font-family: Monaco, monospace;
+	font-size: 11px;
+	line-height: 1.3em;
+	word-wrap: break-word;
+	white-space: pre;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+}
+
+pre.textmate-source.dawn {
+	color: #080808;
+	background-color: #F9F9F9;
+}
+
+pre.textmate-source .linenum {
+	width: 75px;
+	padding: 0.1em 1em 0.2em 0;
+	color: #888;
+	background-color: #eee;
+}
+pre.textmate-source.dawn span {
+   padding-top: 0.2em;
+   padding-bottom: 0.1em;
+}
+pre.textmate-source.dawn ::selection {
+	background-color: rgba(39, 95, 255, 0.30);
+}
+/* Comment */
+pre.textmate-source.dawn .comment {
+	color: #5A525F;
+	font-style: italic;
+}
+
+/* Constant */
+pre.textmate-source.dawn .constant {
+	color: #811F24;
+	font-weight: bold;
+}
+
+/* Entity */
+pre.textmate-source.dawn .entity {
+	color: #BF4F24;
+}
+
+/* Keyword */
+pre.textmate-source.dawn .keyword {
+	color: #794938;
+}
+
+/* Storage */
+pre.textmate-source.dawn .storage {
+	color: #A71D5D;
+	font-style: italic;
+}
+
+/* String */
+pre.textmate-source.dawn .string .| .punctuation_definition_string {
+	color: #0B6125;
+}
+
+/* Support */
+pre.textmate-source.dawn .support {
+	color: #691C97;
+}
+
+/* Variable */
+pre.textmate-source.dawn .variable {
+	color: #234A97;
+}
+
+/* Punctuation.separator */
+pre.textmate-source.dawn .punctuation_separator {
+	color: #794938;
+}
+
+/* Invalid – Deprecated */
+pre.textmate-source.dawn .invalid_deprecated {
+	color: #B52A1D;
+	font-style: italic;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* Invalid – Illegal */
+pre.textmate-source.dawn .invalid_illegal {
+	color: #F8F8F8;
+	font-style: italic;
+	text-decoration: underline;
+	background-color: #B52A1D;
+}
+
+/* String embedded-source */
+pre.textmate-source.dawn .string .source {
+	color: #080808;
+	background-color: rgba(111, 139, 186, 0.15);
+}
+
+/* String constant */
+pre.textmate-source.dawn .string .constant {
+	color: #696969;
+	font-weight: bold;
+}
+
+/* String variable */
+pre.textmate-source.dawn .string .variable {
+	color: #234A97;
+}
+
+/* String.regexp */
+pre.textmate-source.dawn .string_regexp {
+	color: #CF5628;
+}
+
+/* String.regexp.«special» */
+pre.textmate-source.dawn .string_regexp_character-class, pre.textmate-source.dawn .string_regexp .constant_character_escaped, pre.textmate-source.dawn .string_regexp .source_ruby_embedded, pre.textmate-source.dawn .string_regexp .string_regexp_arbitrary-repitition {
+	color: #CF5628;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* String.regexp constant.character.escape */
+pre.textmate-source.dawn .string_regexp .constant_character_escape {
+	color: #811F24;
+	font-weight: bold;
+}
+
+/* Embedded Source */
+pre.textmate-source.dawn .text .source {
+	background-color: rgba(111, 139, 186, 0.15);
+}
+
+/* Support.function */
+pre.textmate-source.dawn .support_function {
+	color: #693A17;
+}
+
+/* Support.constant */
+pre.textmate-source.dawn .support_constant {
+	color: #B4371F;
+}
+
+/* Support.variable */
+pre.textmate-source.dawn .support_variable {
+	color: #234A97;
+}
+
+/* Markup.list */
+pre.textmate-source.dawn .markup_list {
+	color: #693A17;
+}
+
+/* Markup.heading */
+pre.textmate-source.dawn .markup_heading .| .markup_heading .entity_name {
+	color: #19356D;
+	font-weight: bold;
+}
+
+/* Markup.quote */
+pre.textmate-source.dawn .markup_quote {
+	color: #0B6125;
+	font-style: italic;
+	background-color: rgba(187, 187, 187, 0.19);
+}
+
+/* Markup.italic */
+pre.textmate-source.dawn .markup_italic {
+	color: #080808;
+	font-style: italic;
+}
+
+/* Markup.bold */
+pre.textmate-source.dawn .markup_bold {
+	color: #080808;
+	font-weight: bold;
+}
+
+/* Markup.underline */
+pre.textmate-source.dawn .markup_underline {
+	color: #080808;
+	text-decoration: underline;
+}
+
+/* Markup.link */
+pre.textmate-source.dawn .markup_link {
+	color: #234A97;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+/* Markup.raw */
+pre.textmate-source.dawn .markup_raw {
+	color: #234A97;
+	background-color: rgba(187, 187, 187, 0.19);
+}
+
+/* Markup.deleted */
+pre.textmate-source.dawn .markup_deleted {
+	color: #59140E;
+}
+
+/* Meta.separator */
+pre.textmate-source.dawn .meta_separator {
+	color: #19356D;
+	font-weight: bold;
+	background-color: #DCDCDC;
+}
+
+h1,h2,h3,h4,h5,h6  {
+  font-family: Helvetica-Neue, Helvetica, Arial, sans-serif;
+}
+
+pre.textmate-source {
+	margin: 0;
+	padding: 0 0 0 2px;
+	font-family: Monaco, monospace;
+	font-size: 11px;
+	line-height: 1.3em;
+	word-wrap: break-word;
+	white-space: pre;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+}
+
+pre.textmate-source.dawn {
+	color: #080808;
+	background-color: #F9F9F9;
+}
+
+pre.textmate-source .linenum {
+	width: 75px;
+	padding: 0.1em 1em 0.2em 0;
+	color: #888;
+	background-color: #eee;
+}
+pre.textmate-source.dawn span {
+   padding-top: 0.2em;
+   padding-bottom: 0.1em;
+}
+pre.textmate-source.dawn ::selection {
+	background-color: rgba(39, 95, 255, 0.30);
+}
+/* Comment */
+pre.textmate-source.dawn .comment {
+	color: #5A525F;
+	font-style: italic;
+}
+
+/* Constant */
+pre.textmate-source.dawn .constant {
+	color: #811F24;
+	font-weight: bold;
+}
+
+/* Entity */
+pre.textmate-source.dawn .entity {
+	color: #BF4F24;
+}
+
+/* Keyword */
+pre.textmate-source.dawn .keyword {
+	color: #794938;
+}
+
+/* Storage */
+pre.textmate-source.dawn .storage {
+	color: #A71D5D;
+	font-style: italic;
+}
+
+/* String */
+pre.textmate-source.dawn .string .| .punctuation_definition_string {
+	color: #0B6125;
+}
+
+/* Support */
+pre.textmate-source.dawn .support {
+	color: #691C97;
+}
+
+/* Variable */
+pre.textmate-source.dawn .variable {
+	color: #234A97;
+}
+
+/* Punctuation.separator */
+pre.textmate-source.dawn .punctuation_separator {
+	color: #794938;
+}
+
+/* Invalid – Deprecated */
+pre.textmate-source.dawn .invalid_deprecated {
+	color: #B52A1D;
+	font-style: italic;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* Invalid – Illegal */
+pre.textmate-source.dawn .invalid_illegal {
+	color: #F8F8F8;
+	font-style: italic;
+	text-decoration: underline;
+	background-color: #B52A1D;
+}
+
+/* String embedded-source */
+pre.textmate-source.dawn .string .source {
+	color: #080808;
+	background-color: rgba(111, 139, 186, 0.15);
+}
+
+/* String constant */
+pre.textmate-source.dawn .string .constant {
+	color: #696969;
+	font-weight: bold;
+}
+
+/* String variable */
+pre.textmate-source.dawn .string .variable {
+	color: #234A97;
+}
+
+/* String.regexp */
+pre.textmate-source.dawn .string_regexp {
+	color: #CF5628;
+}
+
+/* String.regexp.«special» */
+pre.textmate-source.dawn .string_regexp_character-class, pre.textmate-source.dawn .string_regexp .constant_character_escaped, pre.textmate-source.dawn .string_regexp .source_ruby_embedded, pre.textmate-source.dawn .string_regexp .string_regexp_arbitrary-repitition {
+	color: #CF5628;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* String.regexp constant.character.escape */
+pre.textmate-source.dawn .string_regexp .constant_character_escape {
+	color: #811F24;
+	font-weight: bold;
+}
+
+/* Embedded Source */
+pre.textmate-source.dawn .text .source {
+	background-color: rgba(111, 139, 186, 0.15);
+}
+
+/* Support.function */
+pre.textmate-source.dawn .support_function {
+	color: #693A17;
+}
+
+/* Support.constant */
+pre.textmate-source.dawn .support_constant {
+	color: #B4371F;
+}
+
+/* Support.variable */
+pre.textmate-source.dawn .support_variable {
+	color: #234A97;
+}
+
+/* Markup.list */
+pre.textmate-source.dawn .markup_list {
+	color: #693A17;
+}
+
+/* Markup.heading */
+pre.textmate-source.dawn .markup_heading .| .markup_heading .entity_name {
+	color: #19356D;
+	font-weight: bold;
+}
+
+/* Markup.quote */
+pre.textmate-source.dawn .markup_quote {
+	color: #0B6125;
+	font-style: italic;
+	background-color: rgba(187, 187, 187, 0.19);
+}
+
+/* Markup.italic */
+pre.textmate-source.dawn .markup_italic {
+	color: #080808;
+	font-style: italic;
+}
+
+/* Markup.bold */
+pre.textmate-source.dawn .markup_bold {
+	color: #080808;
+	font-weight: bold;
+}
+
+/* Markup.underline */
+pre.textmate-source.dawn .markup_underline {
+	color: #080808;
+	text-decoration: underline;
+}
+
+/* Markup.link */
+pre.textmate-source.dawn .markup_link {
+	color: #234A97;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+/* Markup.raw */
+pre.textmate-source.dawn .markup_raw {
+	color: #234A97;
+	background-color: rgba(187, 187, 187, 0.19);
+}
+
+/* Markup.deleted */
+pre.textmate-source.dawn .markup_deleted {
+	color: #59140E;
+}
+
+/* Meta.separator */
+pre.textmate-source.dawn .meta_separator {
+	color: #19356D;
+	font-weight: bold;
+	background-color: #DCDCDC;
+}
+
+	</style>
+</head>
+
+<body>
+
+
+<h2>index.jst.hamljs</h2>
+
+<pre class="textmate-source dawn"><span class='linenum'>    1</span> <span class="text text_haml"><span class="entity entity_name entity_name_tag entity_name_tag_id entity_name_tag_id_haml">#check-amount</span>
+<span class='linenum'>    2</span>   0
+<span class='linenum'>    3</span> <span class="entity entity_name entity_name_tag entity_name_tag_id entity_name_tag_id_haml">#tip-amount</span>
+<span class='linenum'>    4</span>   0
+<span class='linenum'>    5</span> <span class="entity entity_name entity_name_tag entity_name_tag_id entity_name_tag_id_haml">#total</span>
+<span class='linenum'>    6</span>   0
+<span class='linenum'>    7</span> <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">ul</span></span><span class="entity entity_name entity_name_tag entity_name_tag_class entity_name_tag_class_haml">.keys</span>
+<span class='linenum'>    8</span>   :for i in [10,15,20]
+<span class='linenum'>    9</span>     <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">li</span></span>
+<span class='linenum'>   10</span>       <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">a</span></span><span class="entity entity_name entity_name_tag entity_name_tag_class entity_name_tag_class_haml">.tipcalc</span>(data-action="calculate" data-percentage=i href="#")
+<span class='linenum'>   11</span>         <span class="meta meta_line meta_line_ruby meta_line_ruby_haml">=<span class="source source_ruby source_ruby_embedded source_ruby_embedded_haml"> <span class="string string_quoted string_quoted_double string_quoted_double_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">"</span>Tip <span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">"</span></span> <span class="keyword keyword_operator keyword_operator_arithmetic keyword_operator_arithmetic_ruby">+</span> i <span class="keyword keyword_operator keyword_operator_arithmetic keyword_operator_arithmetic_ruby">+</span> <span class="string string_quoted string_quoted_double string_quoted_double_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">"</span>%<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">"</span></span></span></span>
+<span class='linenum'>   12</span> 
+<span class='linenum'>   13</span>   :for i in [1,2,3,4,5,6,7,8,9]
+<span class='linenum'>   14</span>     <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">li</span></span>
+<span class='linenum'>   15</span>       <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">a</span></span>(data-action="number" data-value=i href="#")= i
+<span class='linenum'>   16</span>   
+<span class='linenum'>   17</span>   <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">li</span></span>
+<span class='linenum'>   18</span>     <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">a</span></span>(data-action="toggle-keyboard" href="#")
+<span class='linenum'>   19</span>       <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">span</span></span><span class="entity entity_name entity_name_tag entity_name_tag_class entity_name_tag_class_haml">.flipped</span> &amp;#8679;
+<span class='linenum'>   20</span>   <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">li</span></span>
+<span class='linenum'>   21</span>     <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">a</span></span>(data-action="number" data-value=0 href="#") 0
+<span class='linenum'>   22</span>   <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">li</span></span>
+<span class='linenum'>   23</span>     <span class="meta meta_tag meta_tag_haml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_haml">%</span><span class="entity entity_name entity_name_tag entity_name_tag_haml">a</span></span>(data-action="clear" href="#") C
+<span class='linenum'>   24</span>   </span></pre>
+
+
+<h2>home.js.coffee</h2>
+<pre class="textmate-source dawn"><span class='linenum'>    1</span> <span class="source source_coffee"><span class="meta meta_class meta_class_coffee"><span class="storage storage_type storage_type_class storage_type_class_coffee">class</span> <span class="entity entity_name entity_name_type entity_name_type_class entity_name_type_class_coffee">App.Home</span> <span class="keyword keyword_control keyword_control_inheritance keyword_control_inheritance_coffee">extends</span> <span class="entity entity_other entity_other_inherited-class entity_other_inherited-class_coffee">Spine.Controller</span></span>
+<span class='linenum'>    2</span>   <span class="variable variable_assignment variable_assignment_coffee"><span class="variable variable_assignment variable_assignment_coffee">events<span class="punctuation punctuation_separator punctuation_separator_key-value">:</span></span></span>
+<span class='linenum'>    3</span>     <span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>tap [data-action=number]<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span> <span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>addDigit<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span>
+<span class='linenum'>    4</span>     <span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>tap [data-action=clear]<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span>  <span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>clear<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span>
+<span class='linenum'>    5</span>     <span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>tap [data-action=calculate]<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span> <span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>calculateTip<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span>
+<span class='linenum'>    6</span>     <span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>tap [data-action=toggle-keyboard]<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span> <span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>toggleKeys<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span>
+<span class='linenum'>    7</span> 
+<span class='linenum'>    8</span> <span class="meta meta_function meta_function_coffee">  <span class="entity entity_name entity_name_function entity_name_function_coffee">constructo<span class="entity entity_name entity_name_function entity_name_function_coffee">r</span></span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span> <span class="keyword keyword_operator keyword_operator_coffee">-&gt;</span>
+<span class='linenum'>    9</span>     <span class="variable variable_language variable_language_coffee">super</span>
+<span class='linenum'>   10</span>     <span class="variable variable_other variable_other_readwrite variable_other_readwrite_instance variable_other_readwrite_instance_coffee">@active</span> <span class="variable variable_other variable_other_readwrite variable_other_readwrite_instance variable_other_readwrite_instance_coffee">@render</span>
+<span class='linenum'>   11</span>   
+<span class='linenum'>   12</span> <span class="meta meta_function meta_function_coffee">  <span class="entity entity_name entity_name_function entity_name_function_coffee">rende<span class="entity entity_name entity_name_function entity_name_function_coffee">r</span></span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span> <span class="keyword keyword_operator keyword_operator_coffee">=&gt;</span>
+<span class='linenum'>   13</span>     <span class="variable variable_other variable_other_readwrite variable_other_readwrite_instance variable_other_readwrite_instance_coffee">@html</span> <span class="variable variable_other variable_other_readwrite variable_other_readwrite_instance variable_other_readwrite_instance_coffee">@view</span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>home/index<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span>
+<span class='linenum'>   14</span>     $<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>#homescreen img<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>on <span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>tap click<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_coffee">, </span><span class="meta meta_inline meta_inline_function meta_inline_function_coffee"><span class="variable variable_parameter variable_parameter_function variable_parameter_function_coffee">(e)</span> <span class="storage storage_type storage_type_function storage_type_function_coffee">-&gt;</span></span>
+<span class='linenum'>   15</span>       $<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>e<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>currentTarget<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>toggleClass<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>flipped<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span>
+<span class='linenum'>   16</span>   
+<span class='linenum'>   17</span> <span class="meta meta_function meta_function_coffee">  <span class="entity entity_name entity_name_function entity_name_function_coffee">addDigi<span class="entity entity_name entity_name_function entity_name_function_coffee">t</span></span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span> <span class="meta meta_inline meta_inline_function meta_inline_function_coffee"><span class="variable variable_parameter variable_parameter_function variable_parameter_function_coffee">(e)</span> <span class="storage storage_type storage_type_function storage_type_function_coffee">=&gt;</span></span>
+<span class='linenum'>   18</span>     e<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>preventDefault<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">()</span>
+<span class='linenum'>   19</span>     <span class="variable variable_assignment variable_assignment_coffee"><span class="variable variable_assignment variable_assignment_coffee">amtBox <span class="keyword keyword_operator keyword_operator_coffee">=</span></span></span> $<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>#check-amount<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span>
+<span class='linenum'>   20</span>     <span class="variable variable_assignment variable_assignment_coffee"><span class="variable variable_assignment variable_assignment_coffee">oldVal <span class="keyword keyword_operator keyword_operator_coffee">=</span></span></span> <span class="variable variable_other variable_other_readwrite variable_other_readwrite_instance variable_other_readwrite_instance_coffee">@getIntVal</span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>amtBox<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>text<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">())</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>toString<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">()</span>
+<span class='linenum'>   21</span>     <span class="variable variable_assignment variable_assignment_coffee"><span class="variable variable_assignment variable_assignment_coffee">newVal <span class="keyword keyword_operator keyword_operator_coffee">=</span></span></span> oldVal <span class="keyword keyword_operator keyword_operator_coffee">+</span> $<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>e<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>currentTarget<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>data<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>value<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>toString<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">()</span>
+<span class='linenum'>   22</span>     amtBox<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>text<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span> <span class="variable variable_other variable_other_readwrite variable_other_readwrite_instance variable_other_readwrite_instance_coffee">@cleanZeros</span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>newVal<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span> <span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span>
+<span class='linenum'>   23</span>   
+<span class='linenum'>   24</span> <span class="meta meta_function meta_function_coffee">  <span class="entity entity_name entity_name_function entity_name_function_coffee">cleanZero<span class="entity entity_name entity_name_function entity_name_function_coffee">s</span></span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span> <span class="meta meta_inline meta_inline_function meta_inline_function_coffee"><span class="variable variable_parameter variable_parameter_function variable_parameter_function_coffee">(str)</span> <span class="storage storage_type storage_type_function storage_type_function_coffee">-&gt;</span></span>
+<span class='linenum'>   25</span>     <span class="variable variable_assignment variable_assignment_coffee"><span class="variable variable_assignment variable_assignment_coffee">val <span class="keyword keyword_operator keyword_operator_coffee">=</span></span></span> str<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>replace<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_regexp string_regexp_coffee">/^0+([0-9]*)$/</span><span class="meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_coffee">, </span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>$1<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span>
+<span class='linenum'>   26</span>     <span class="variable variable_assignment variable_assignment_coffee"><span class="variable variable_assignment variable_assignment_coffee">val <span class="keyword keyword_operator keyword_operator_coffee">=</span></span></span> <span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>0<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span> <span class="keyword keyword_control keyword_control_coffee">if</span> val <span class="keyword keyword_operator keyword_operator_coffee">is</span> <span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span>
+<span class='linenum'>   27</span>     val
+<span class='linenum'>   28</span> <span class="meta meta_function meta_function_coffee">  <span class="entity entity_name entity_name_function entity_name_function_coffee">getIntVa<span class="entity entity_name entity_name_function entity_name_function_coffee">l</span></span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span> <span class="meta meta_inline meta_inline_function meta_inline_function_coffee"><span class="variable variable_parameter variable_parameter_function variable_parameter_function_coffee">(str)</span> <span class="storage storage_type storage_type_function storage_type_function_coffee">-&gt;</span></span>
+<span class='linenum'>   29</span>     Math<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>round<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>parseFloat<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>str<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">))</span>
+<span class='linenum'>   30</span>   
+<span class='linenum'>   31</span> <span class="meta meta_function meta_function_coffee">  <span class="entity entity_name entity_name_function entity_name_function_coffee">clea<span class="entity entity_name entity_name_function entity_name_function_coffee">r</span></span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span> <span class="meta meta_inline meta_inline_function meta_inline_function_coffee"><span class="variable variable_parameter variable_parameter_function variable_parameter_function_coffee">(e)</span> <span class="storage storage_type storage_type_function storage_type_function_coffee">-&gt;</span></span>
+<span class='linenum'>   32</span>     e<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>preventDefault<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">()</span>
+<span class='linenum'>   33</span>     $<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>#check-amount, #tip-amount, #total<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>text<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>0<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span>
+<span class='linenum'>   34</span>     
+<span class='linenum'>   35</span> <span class="meta meta_function meta_function_coffee">  <span class="entity entity_name entity_name_function entity_name_function_coffee">calculateTi<span class="entity entity_name entity_name_function entity_name_function_coffee">p</span></span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span> <span class="meta meta_inline meta_inline_function meta_inline_function_coffee"><span class="variable variable_parameter variable_parameter_function variable_parameter_function_coffee">(e)</span> <span class="storage storage_type storage_type_function storage_type_function_coffee">-&gt;</span></span>
+<span class='linenum'>   36</span>     e<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>preventDefault<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">()</span>
+<span class='linenum'>   37</span>     <span class="variable variable_assignment variable_assignment_coffee"><span class="variable variable_assignment variable_assignment_coffee">percentage <span class="keyword keyword_operator keyword_operator_coffee">=</span></span></span> $<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>e<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>currentTarget<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>data<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>percentage<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span>
+<span class='linenum'>   38</span>     <span class="variable variable_assignment variable_assignment_coffee"><span class="variable variable_assignment variable_assignment_coffee">checkAmt <span class="keyword keyword_operator keyword_operator_coffee">=</span></span></span> <span class="variable variable_other variable_other_readwrite variable_other_readwrite_instance variable_other_readwrite_instance_coffee">@getIntVal</span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>$<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>#check-amount<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>text<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">())</span>
+<span class='linenum'>   39</span>     <span class="variable variable_assignment variable_assignment_coffee"><span class="variable variable_assignment variable_assignment_coffee">tip <span class="keyword keyword_operator keyword_operator_coffee">=</span></span></span> Math<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>round<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span> checkAmt <span class="keyword keyword_operator keyword_operator_coffee">*</span> <span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>percentage <span class="keyword keyword_operator keyword_operator_coffee">/</span> <span class="constant constant_numeric constant_numeric_coffee">100.0</span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_object meta_delimiter_object_comma meta_delimiter_object_comma_coffee">, </span><span class="constant constant_numeric constant_numeric_coffee">2</span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span>
+<span class='linenum'>   40</span>     $<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>#tip-amount<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>text<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>tip<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span>
+<span class='linenum'>   41</span>     $<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>#total<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>text<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>checkAmt <span class="keyword keyword_operator keyword_operator_coffee">+</span> tip<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span>
+<span class='linenum'>   42</span>   
+<span class='linenum'>   43</span> <span class="meta meta_function meta_function_coffee">  <span class="entity entity_name entity_name_function entity_name_function_coffee">toggleKey<span class="entity entity_name entity_name_function entity_name_function_coffee">s</span></span></span><span class="keyword keyword_operator keyword_operator_coffee">:</span> <span class="meta meta_inline meta_inline_function meta_inline_function_coffee"><span class="variable variable_parameter variable_parameter_function variable_parameter_function_coffee">(e)</span> <span class="storage storage_type storage_type_function storage_type_function_coffee">=&gt;</span></span>
+<span class='linenum'>   44</span>     e<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>preventDefault<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">()</span>
+<span class='linenum'>   45</span>     $<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>e<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>currentTarget<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>parent<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_single string_quoted_single_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">'</span>li<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">'</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>siblings<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">()</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>toggle<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">()</span>
+<span class='linenum'>   46</span>     $<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span>e<span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>currentTarget<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>find<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>span<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span><span class="meta meta_delimiter meta_delimiter_method meta_delimiter_method_period meta_delimiter_method_period_coffee">.</span>toggleClass<span class="meta meta_brace meta_brace_round meta_brace_round_coffee">(</span><span class="string string_quoted string_quoted_double string_quoted_double_coffee"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_coffee">"</span>flipped<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_coffee">"</span></span><span class="meta meta_brace meta_brace_round meta_brace_round_coffee">)</span></span></pre>
+
+<h2>application.sass</h2>
+  
+<pre class="textmate-source dawn"><span class='linenum'>    1</span> <span class="source source_sass"><span class="keyword keyword_control keyword_control_at-rule keyword_control_at-rule_sass">@import vendor/1140gs</span>
+<span class='linenum'>    2</span> <span class="keyword keyword_control keyword_control_at-rule keyword_control_at-rule_sass">@import compass/css3/text-shadow</span>
+<span class='linenum'>    3</span> <span class="keyword keyword_control keyword_control_at-rule keyword_control_at-rule_sass">@import compass/css3/transform</span>
+<span class='linenum'>    4</span> <span class="keyword keyword_control keyword_control_at-rule keyword_control_at-rule_sass">@import base</span>
+<span class='linenum'>    5</span> 
+<span class='linenum'>    6</span> <span class="keyword keyword_control keyword_control_at-rule keyword_control_at-rule_sass">@import compass/css3/images</span>
+<span class='linenum'>    7</span> 
+<span class='linenum'>    8</span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_class entity_other_attribute-name_class_sass">.keys</span>
+<span class='linenum'>    9</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">position</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">absolute</span>
+<span class='linenum'>   10</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">bottom</span>:<span class="constant constant_numeric constant_numeric_sass"> 0</span>
+<span class='linenum'>   11</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">left</span>:<span class="constant constant_numeric constant_numeric_sass"> 0</span>
+<span class='linenum'>   12</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">right</span>:<span class="constant constant_numeric constant_numeric_sass"> 0</span>
+<span class='linenum'>   13</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">list-style</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">none</span>
+<span class='linenum'>   14</span>   <span class="keyword keyword_control keyword_control_untitled">li</span>
+<span class='linenum'>   15</span>     <span class="support support_type support_type_property-name support_type_property-name_sass">display</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">block</span>
+<span class='linenum'>   16</span>     <span class="support support_type support_type_property-name support_type_property-name_sass">float</span>: <span class="constant constant_string constant_string_sass">left</span>
+<span class='linenum'>   17</span>     <span class="support support_type support_type_property-name support_type_property-name_sass">width</span>:<span class="constant constant_numeric constant_numeric_sass"> 33.33</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">%</span>
+<span class='linenum'>   18</span>     <span class="support support_type support_type_property-name support_type_property-name_sass">height</span>:<span class="constant constant_numeric constant_numeric_sass"> 45</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">px</span>
+<span class='linenum'>   19</span>     <span class="support support_type support_type_property-name support_type_property-name_sass">text-align</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">center</span>
+<span class='linenum'>   20</span>     <span class="keyword keyword_control keyword_control_untitled">a</span>
+<span class='linenum'>   21</span>       <span class="support support_type support_type_property-name support_type_property-name_sass">color</span>: <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#555</span>
+<span class='linenum'>   22</span>       <span class="support support_type support_type_property-name support_type_property-name_sass">text-decoration</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">none</span>
+<span class='linenum'>   23</span>       <span class="support support_type support_type_property-name support_type_property-name_sass">font-weight</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">bold</span>
+<span class='linenum'>   24</span>       <span class="support support_type support_type_property-name support_type_property-name_sass">display</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">block</span>
+<span class='linenum'>   25</span>       <span class="support support_type support_type_property-name support_type_property-name_sass">border-right</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">solid</span><span class="constant constant_numeric constant_numeric_sass"> 1</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">px</span> <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#555</span>
+<span class='linenum'>   26</span>       <span class="support support_type support_type_property-name support_type_property-name_sass">border-top</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">solid</span><span class="constant constant_numeric constant_numeric_sass"> 1</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">px</span> <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#555</span>
+<span class='linenum'>   27</span>       <span class="support support_type support_type_property-name support_type_property-name_sass">padding-top</span>:<span class="constant constant_numeric constant_numeric_sass"> 10</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">px</span>
+<span class='linenum'>   28</span>       <span class="support support_type support_type_property-name support_type_property-name_sass">padding-bottom</span>:<span class="constant constant_numeric constant_numeric_sass"> 10</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">px</span>
+<span class='linenum'>   29</span>       <span class="support support_type support_type_property-name support_type_property-name_sass">height</span>:<span class="constant constant_numeric constant_numeric_sass"> 25</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">px</span>
+<span class='linenum'>   30</span>       <span class="support support_type support_type_property-name support_type_property-name_sass">background</span>: <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#888</span>
+<span class='linenum'>   31</span>       <span class="keyword keyword_control keyword_control_untitled">&amp;</span>[href]
+<span class='linenum'>   32</span>         <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">+background</span>(linear-gradient(<span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#aaa</span>, <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#888</span>))
+<span class='linenum'>   33</span>         <span class="keyword keyword_control keyword_control_untitled">&amp;</span><span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">:active</span>
+<span class='linenum'>   34</span>           <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">+background</span>(linear-gradient(<span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#aaa</span>, <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#ddd</span>))
+<span class='linenum'>   35</span>       <span class="keyword keyword_control keyword_control_untitled">&amp;</span><span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_class entity_other_attribute-name_class_sass">.tipcalc</span>
+<span class='linenum'>   36</span>         <span class="support support_type support_type_property-name support_type_property-name_sass">color</span>: <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#ccc</span>
+<span class='linenum'>   37</span>         <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">+background</span>( linear-gradient(<span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#999</span>, <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#555</span>) )
+<span class='linenum'>   38</span>         <span class="keyword keyword_control keyword_control_untitled">&amp;</span><span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">:active</span>
+<span class='linenum'>   39</span>           <span class="support support_type support_type_property-name support_type_property-name_sass">background</span>: <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#1DB52D</span>
+<span class='linenum'>   40</span>     <span class="keyword keyword_control keyword_control_untitled">&amp;</span>:nth-child(<span class="constant constant_numeric constant_numeric_sass">3</span>n<span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">+1</span>)
+<span class='linenum'>   41</span>       <span class="keyword keyword_control keyword_control_untitled">a</span>
+<span class='linenum'>   42</span>         <span class="support support_type support_type_property-name support_type_property-name_sass">border-right</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">solid</span><span class="constant constant_numeric constant_numeric_sass"> 1</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">px</span> <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#555</span>
+<span class='linenum'>   43</span>     
+<span class='linenum'>   44</span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_class entity_other_attribute-name_class_sass">.flipped</span>
+<span class='linenum'>   45</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">display</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">block</span>
+<span class='linenum'>   46</span>   <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">+transform</span>(rotate(<span class="constant constant_numeric constant_numeric_sass">180</span>deg))
+<span class='linenum'>   47</span> 
+<span class='linenum'>   48</span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_id entity_other_attribute-name_id_sass">#check-amount</span>, <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_id entity_other_attribute-name_id_sass">#tip-amount</span>, <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_id entity_other_attribute-name_id_sass">#total</span>
+<span class='linenum'>   49</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">position</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">relative</span>
+<span class='linenum'>   50</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">width</span>:<span class="constant constant_numeric constant_numeric_sass"> 90</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">%</span>
+<span class='linenum'>   51</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">padding</span>:<span class="constant constant_numeric constant_numeric_sass"> 5</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">%</span>
+<span class='linenum'>   52</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">border-bottom</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">solid</span><span class="constant constant_numeric constant_numeric_sass"> 1</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">px</span> <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#ccc</span>
+<span class='linenum'>   53</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">font-size</span>:<span class="constant constant_numeric constant_numeric_sass"> 30</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">px</span>
+<span class='linenum'>   54</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">font-weight</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">bold</span>
+<span class='linenum'>   55</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">text-align</span>: <span class="constant constant_string constant_string_sass">right</span>
+<span class='linenum'>   56</span>   <span class="keyword keyword_control keyword_control_untitled">&amp;</span><span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">:before</span>
+<span class='linenum'>   57</span>     <span class="support support_type support_type_property-name support_type_property-name_sass">content</span>: <span class="string string_quoted string_quoted_double string_quoted_double_sass">"$ "</span>
+<span class='linenum'>   58</span>   <span class="keyword keyword_control keyword_control_untitled">&amp;</span><span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">:after</span>
+<span class='linenum'>   59</span>     <span class="support support_type support_type_property-name support_type_property-name_sass">content</span>: <span class="string string_quoted string_quoted_double string_quoted_double_sass">""</span>
+<span class='linenum'>   60</span>     <span class="support support_type support_type_property-name support_type_property-name_sass">color</span>: <span class="constant constant_other constant_other_rgb-value constant_other_rgb-value_sass">#888</span>
+<span class='linenum'>   61</span>     <span class="support support_type support_type_property-name support_type_property-name_sass">position</span>: <span class="support support_constant support_constant_property-value support_constant_property-value_sass">absolute</span>
+<span class='linenum'>   62</span>     <span class="support support_type support_type_property-name support_type_property-name_sass">left</span>:<span class="constant constant_numeric constant_numeric_sass"> 15</span><span class="constant constant_other constant_other_unit constant_other_unit_sass">px</span>
+<span class='linenum'>   63</span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_id entity_other_attribute-name_id_sass">#check-amount</span><span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">:after</span>
+<span class='linenum'>   64</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">content</span>: <span class="string string_quoted string_quoted_double string_quoted_double_sass">"Check Amt"</span>
+<span class='linenum'>   65</span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_id entity_other_attribute-name_id_sass">#tip-amount</span><span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">:after</span>
+<span class='linenum'>   66</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">content</span>: <span class="string string_quoted string_quoted_double string_quoted_double_sass">"Tip"</span>
+<span class='linenum'>   67</span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_id entity_other_attribute-name_id_sass">#total</span><span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_tag entity_other_attribute-name_tag_pseudo-class">:after</span>
+<span class='linenum'>   68</span>   <span class="support support_type support_type_property-name support_type_property-name_sass">content</span>: <span class="string string_quoted string_quoted_double string_quoted_double_sass">"TOTAL"</span></span></pre>
+</body>
+</html>
